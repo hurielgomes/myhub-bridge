@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+profiles/
+logs/
+results/
+data/chat_registry.json
+data/chat_registry.json.tmp
+inbox/*
+!inbox/.gitkeep
+processing/*
+!processing/.gitkeep
+processed/*
+!processed/.gitkeep
+failed/*
+!failed/.gitkeep

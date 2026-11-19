@@ -1,0 +1,11 @@
+{
+  "id": "exemplo_motor_m1",
+  "project": "fabrica_videos",
+  "purpose": "motor_m1_recursos_visuais",
+  "chat_key": "fabrica_videos__m1_recursos_visuais",
+  "model": null,
+  "manual_model_selection": false,
+  "prompt": "Descreva aqui a solicitação. Peça para devolver cada arquivo em um bloco de código separado e indicar a linguagem correta (json, svg, python etc.).",
+  "expected_outputs": ["personagem.svg", "personagem.json"],
+  "metadata": {}
+}

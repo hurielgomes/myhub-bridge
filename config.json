@@ -1,0 +1,40 @@
+{
+  "url": "https://myhub.ia.br/chat",
+  "test_prompt": "Responda somente com esta frase, sem explicações: CONEXÃO COM A FÁBRICA DE VÍDEOS ESTABELECIDA.",
+  "browser": {
+    "viewport": {"width": 1440, "height": 950}
+  },
+  "timeouts": {
+    "response_seconds": 240,
+    "stable_seconds": 3
+  },
+  "send": {"keyboard": "Enter"},
+  "model_selection": {
+    "trigger_selectors": [],
+    "option_selectors": [],
+    "verify_selectors": []
+  },
+  "selectors": {
+    "login_indicators": [
+      "input[type='password']",
+      "input[autocomplete='current-password']",
+      "text=Entrar",
+      "text=Fazer login",
+      "text=Sign in"
+    ],
+    "composer": [],
+    "send_button": [],
+    "assistant_messages": [],
+    "stop_generating": []
+  },
+  "paths": {
+    "profile": "profiles/myhub",
+    "results": "results",
+    "logs": "logs",
+    "chat_registry": "data/chat_registry.json",
+    "inbox": "inbox",
+    "processing": "processing",
+    "processed": "processed",
+    "failed": "failed"
+  }
+}
